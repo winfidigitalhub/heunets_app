@@ -10,6 +10,7 @@ import 'package:heunets_app/features/auth/presentation/bloc/auth_bloc.dart';
 import 'package:heunets_app/features/auth/data/repository/auth_repository_impl.dart';
 import 'package:heunets_app/core/routing/route_names.dart';
 
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
